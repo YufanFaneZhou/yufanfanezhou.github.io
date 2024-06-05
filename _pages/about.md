@@ -7,6 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I'm a Ph.D. Candidate from School of Astronomy and Space Science, [Nanjing University](https://www.nju.edu.cn/en/). My research interest includes numerical simulation, galaxy and the Solar System.
+Key words: (1)Numerical simulation (2)Galaxy (3)Solar System
 
-I am very fortunate to be advised by [Prof. Zhiyuan Li](https://orcid.org/0000-0003-0355-6437).
+2022-2027: Ph.D. Candidate - School of Astronomy and Space Science, [Nanjing University](https://www.nju.edu.cn/en/) Supervisor: [Prof. Zhiyuan Li](https://orcid.org/0000-0003-0355-6437)
+2018-2022: Bachelor - Kuang Yaming Honors School, [Nanjing University](https://www.nju.edu.cn/en/)
