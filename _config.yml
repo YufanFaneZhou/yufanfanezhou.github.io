@@ -8,11 +8,11 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Your Name / Site Title"
+title                    : "Yufan Fane Zhou"
 title_separator          : "-"
-name                     : &name "Your Name"
+name                     : &name "Yufan Fane Zhou"
 description              : &description "personal description"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://yufanfanezhou.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
 
@@ -27,7 +27,7 @@ author:
   bio              : "Chasing stars, romance and ideals"
   location         : "Nanjing, Jiangsu Province, China"
   employer         : "Nanjing University"
-  uri              : https://yufanfanezhou.github.io
+  uri              : # https://yufanfanezhou.github.io
   email            : #"none@example.org" 
 
   # Academic websites
