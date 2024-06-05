@@ -11,9 +11,8 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* 2022-2027: Ph.D. Candidate - School of Astronomy and Space Science, [Nanjing University](https://www.nju.edu.cn/en/) (Supervisor: [Prof. Zhiyuan Li](https://orcid.org/0000-0003-0355-6437))
+* 2018-2022: B.S. - Kuang Yaming Honors School, [Nanjing University](https://www.nju.edu.cn/en/)
 
 Work experience
 ======
