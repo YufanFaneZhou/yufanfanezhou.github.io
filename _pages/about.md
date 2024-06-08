@@ -13,9 +13,7 @@ Major
 
 Key words
 ======
-* Numerical simulation
-* Galaxy
-* Solar System
+* Numerical simulation; Galaxy; Solar System
 
 Education
 ======
