@@ -4,7 +4,7 @@ title: "Meetings"
 permalink: /meetings/
 author_profile: true
 redirect_from:
-  - /resume
+  - /meetings
 ---
 
 {% include base_path %}
