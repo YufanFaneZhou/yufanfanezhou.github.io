@@ -24,9 +24,9 @@ Education
 Publications
 ======
 (Updated on June 6, 2024)
-* English work
+* English publications
   * First/Corresponding author: 1 (1 MNRASL)
   * Co-author: 0
-* Chinese work
+* Chinese publications
   * First/Corresponding author: 1 (1 journal)
   * Co-author: 0
