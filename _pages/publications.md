@@ -9,6 +9,15 @@ redirect_from:
 
 {% include base_path %}
 
+* MARTIANS (MARs2020, TIANwen and So on) would see more potentially hazardous asteroids than Earthlings
+  * Type: Journal article
+  * Journal: Monthly Notices of the Royal Astronomical Society: Letters (MNRASL)
+  * Language: English
+  * Date: 2024-05-20
+  * Contribution: First&Corresponding author
+  * DOI: 10.3969/j.issn.1000-8349.2023.04.02
+  * URL: http://www.shao.cas.cn/twxjz/wzll/202304/202304sp/202312/P020240123566138368168.pdf
+
 * 利用N体模拟研究银河系与仙女座星系的并合 (Merger of the Milky Way and the Andromeda Galaxy with N-body Simulations)
   * Type: Journal article
   * Journal: 天文学进展 (PROGRESS IN ASTRONOMY)
@@ -17,13 +26,3 @@ redirect_from:
   * Contribution: First&Corresponding author
   * DOI: 10.3969/j.issn.1000-8349.2023.04.02
   * URL: http://www.shao.cas.cn/twxjz/wzll/202304/202304sp/202312/P020240123566138368168.pdf
-
-title: "MARTIANS (MARs2020, TIANwen and So on) would see more potentially hazardous asteroids than Earthlings"
-collection: publications
-permalink:
-excerpt: 'This paper is about the number 2. The number 3 is left for future work.'
-date: 2024-05-20
-venue: 'Monthly Notices of the Royal Astronomical Society: Letters'
-slidesurl: ''
-paperurl: ''
-#citation: ''
