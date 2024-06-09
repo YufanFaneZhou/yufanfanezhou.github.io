@@ -9,15 +9,14 @@ redirect_from:
 
 {% include base_path %}
 
-2022
-title: "利用N体模拟研究银河系与仙女座星系的并合(Merger of the Milky Way and the Andromeda Galaxy with N-body Simulations)"
-permalink: 
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2023-12-29
-venue: '天文学进展(PROGRESS IN ASTRONOMY)'
-slidesurl: ''
-paperurl: ''
-#citation: ''
+* 利用N体模拟研究银河系与仙女座星系的并合 (Merger of the Milky Way and the Andromeda Galaxy with N-body Simulations)
+  * Type: Journal article
+  * Journal: 天文学进展 (PROGRESS IN ASTRONOMY)
+  * Language: Chinese
+  * Date: 2023-12-29
+  * Contribution: First&Corresponding author
+  * DOI: 10.3969/j.issn.1000-8349.2023.04.02
+  * URL: http://www.shao.cas.cn/twxjz/wzll/202304/202304sp/202312/P020240123566138368168.pdf
 
 title: "MARTIANS (MARs2020, TIANwen and So on) would see more potentially hazardous asteroids than Earthlings"
 collection: publications
