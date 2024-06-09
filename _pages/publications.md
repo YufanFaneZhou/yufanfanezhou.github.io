@@ -15,8 +15,8 @@ redirect_from:
   * Language: English
   * Date: 2024-05-20
   * Contribution: First&Corresponding author
-  * DOI: 10.3969/j.issn.1000-8349.2023.04.02
-  * URL: http://www.shao.cas.cn/twxjz/wzll/202304/202304sp/202312/P020240123566138368168.pdf
+  * DOI: 10.1093/mnrasl/slae040
+  * URL: https://doi.org/10.1093/mnrasl/slae040
 
 * 利用N体模拟研究银河系与仙女座星系的并合 (Merger of the Milky Way and the Andromeda Galaxy with N-body Simulations)
   * Type: Journal article
