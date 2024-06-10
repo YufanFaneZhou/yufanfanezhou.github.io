@@ -9,11 +9,22 @@ redirect_from:
 
 {% include base_path %}
 
-* MARTIANS (MARs2020, TIANwen and So on) would see more potentially hazardous asteroids than Earthlings
-  * Type: Journal article
-  * Journal: Monthly Notices of the Royal Astronomical Society: Letters (MNRASL)
-  * Language: English
-  * Date: 2024-05-20
-  * Contribution: First&Corresponding author
-  * DOI: 10.1093/mnrasl/slae040
-  * URL: https://doi.org/10.1093/mnrasl/slae040
+* Seminar on Space Polarization detection
+  * Location: Suzhou, Jiangsu Province, China
+  * Date: 2024-01
+
+* 2023 Deep Space Exploration Youth Forum
+  * Location: Suzhou, Jiangsu Province, China
+  * Date: 2023-12
+
+* 2023 National Planetary Science Conference
+  * Location: Tengchong, Yunnan Province, China
+  * Date: 2023-11
+
+* The 3rd China Space Science Assembly 
+  * Location: Deqing, Zhejiang Province, China
+  * Date: 2023-10
+
+* 2023 Annual Meeting of the Chinese Astronomical Society
+  * Location: Weihai, Shandong Province, China
+  * Date: 2023-08
