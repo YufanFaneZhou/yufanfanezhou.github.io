@@ -1,10 +1,10 @@
 ---
 layout: archive
-title: "Meetings"
-permalink: /meetings/
+title: "Schedule"
+permalink: /schedule/
 author_profile: true
 redirect_from:
-  - /meetings
+  - /schedule
 ---
 
 {% include base_path %}
@@ -32,3 +32,7 @@ redirect_from:
 * 2023 Annual Meeting of the Chinese Astronomical Society
   * Location: Weihai, Shandong Province, China
   * Date: 2023-08
+
+* A visit to Tsinghua University
+  * Location: Beijing, China
+  * Date: 2023-05
