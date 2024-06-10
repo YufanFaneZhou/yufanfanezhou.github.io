@@ -9,6 +9,10 @@ redirect_from:
 
 {% include base_path %}
 
+* The 45th Scientific Assembly of the Committee on Space Research (COSPAR)
+  * Location: Busan, Korea
+  * Date: 2024-07
+
 * Seminar on Space Polarization detection
   * Location: Suzhou, Jiangsu Province, China
   * Date: 2024-01
