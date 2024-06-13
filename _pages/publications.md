@@ -17,7 +17,7 @@ redirect_from:
   * Contribution: First&Corresponding author
   * DOI: 10.1093/mnrasl/slae040
   * URL: [https://doi.org/10.1093/mnrasl/slae040](https://doi.org/10.1093/mnrasl/slae040)
-  * PDF: [Arxiv version]()
+  * PDF: [Arxiv version](https://github.com/YufanFaneZhou/yufanfanezhou.github.io/blob/master/files/240520martians_arxiv.pdf)
   * See news letters about this work from [POPULAR SCIENCE](https://www.popsci.com/science/mars-asteroids/) and [LIVE SCIENCE](https://www.livescience.com/space/mars/mars-is-more-prone-to-devastating-asteroid-impacts-than-we-thought-new-study-hints)
 
 * 利用N体模拟研究银河系与仙女座星系的并合 (Merger of the Milky Way and the Andromeda Galaxy with N-body Simulations)
