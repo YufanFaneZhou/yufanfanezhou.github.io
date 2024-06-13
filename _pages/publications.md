@@ -28,4 +28,4 @@ redirect_from:
   * Contribution: First&Corresponding author
   * DOI: 10.3969/j.issn.1000-8349.2023.04.02
   * URL: [http://www.shao.cas.cn/twxjz/wzll/202304/202304sp/202312/P020240123566138368168.pdf](http://www.shao.cas.cn/twxjz/wzll/202304/202304sp/202312/P020240123566138368168.pdf)
-  * PDF: [pdf]()
+  * PDF: [pdf](https://github.com/YufanFaneZhou/yufanfanezhou.github.io/blob/master/files/231229twxjz.pdf)
