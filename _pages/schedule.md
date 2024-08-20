@@ -13,7 +13,7 @@ redirect_from:
   * Location: Busan, Korea
   * Date: 2024.07.12 - 2024.07.22
 
-* Seminar on Space Polarization detection
+* Seminar on Space Polarization Detection
   * Location: Suzhou, Jiangsu Province, China
   * Date: 2024.01.04 - 2024.01.05
 
