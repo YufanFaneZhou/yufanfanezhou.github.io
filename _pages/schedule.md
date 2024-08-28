@@ -9,6 +9,10 @@ redirect_from:
 
 {% include base_path %}
 
+* 2024 National Planetary Science Conference
+  * Location: Nanjing, Jiangsu Province, China
+  * Date: 2024.10.06 - 2024.10.11
+
 * The 45th Scientific Assembly of the Committee on Space Research (COSPAR)
   * Location: Busan, Korea
   * Date: 2024.07.12 - 2024.07.22
