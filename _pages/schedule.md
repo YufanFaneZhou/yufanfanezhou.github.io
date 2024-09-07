@@ -9,9 +9,17 @@ redirect_from:
 
 {% include base_path %}
 
+* Symposium on the Andromeda galaxy
+  * Location: Suzhou, Jiangsu Province, China
+  * Date: 2024.10.16 - 2024.10.20
+
 * 2024 National Planetary Science Conference
   * Location: Nanjing, Jiangsu Province, China
   * Date: 2024.10.06 - 2024.10.11
+
+* A visit to Tsinghua University and NAOC (National Astronomical Observatories of the Chinese Academy of Sciences)
+  * Location: Beijing, China
+  * Date: 2024.09.10 - 2024.09.14
 
 * The 45th Scientific Assembly of the Committee on Space Research (COSPAR)
   * Location: Busan, Korea
