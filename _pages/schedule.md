@@ -33,7 +33,7 @@ redirect_from:
   * Location: Suzhou, Jiangsu Province, China
   * Date: 2023.12.08 - 2023.12.10
 
-* 2023 National Planetary Science Conference
+* Seminar on Frontiers of Planetary Science and Deep Space Exploration of the Chinese Astronomical Society (2023)
   * Location: Tengchong, Yunnan Province, China
   * Date: 2023.11.26 - 2023.11.29
 
