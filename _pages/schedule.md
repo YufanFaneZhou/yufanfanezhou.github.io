@@ -9,6 +9,10 @@ redirect_from:
 
 {% include base_path %}
 
+* Symposium on the Exploration of Solar System Objects -- 'Miyin' Science Targets
+  * Location: Suzhou, Jiangsu Province, China
+  * Date: 2024.11.13 - 2024.11.14
+
 * Symposium on the Andromeda galaxy
   * Location: Suzhou, Jiangsu Province, China
   * Date: 2024.10.16 - 2024.10.20
