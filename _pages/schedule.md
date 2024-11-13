@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-* Symposium on the Exploration of Solar System Objects -- 'Miyin' Science Targets
+* Symposium on the Exploration of Solar System Objects -- Science Targets of 'Miyin' Project
   * Location: Suzhou, Jiangsu Province, China
   * Date: 2024.11.13 - 2024.11.14
 
