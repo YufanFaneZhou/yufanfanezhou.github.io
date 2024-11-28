@@ -9,6 +9,10 @@ redirect_from:
 
 {% include base_path %}
 
+* Seminar on Frontiers of Planetary Science and Deep Space Exploration of the Chinese Astronomical Society (2024)
+  * Location: Xiamen, Fujian Province, China
+  * Date: 2024.12.22 - 2024.12.25
+
 * Symposium on the Exploration of Solar System Objects -- Science Targets of 'Miyin' Project
   * Location: Suzhou, Jiangsu Province, China
   * Date: 2024.11.13 - 2024.11.14
