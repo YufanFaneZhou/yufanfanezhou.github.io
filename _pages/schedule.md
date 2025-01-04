@@ -13,7 +13,7 @@ redirect_from:
   * Location: Xiamen, Fujian Province, China
   * Date: 2024.12.22 - 2024.12.25
 
-* Symposium on the Exploration of Solar System Objects -- Science Targets of 'Miyin' Project
+* Symposium on the Exploration of Solar System Objects -- Science Targets of MEAYIN Project
   * Location: Suzhou, Jiangsu Province, China
   * Date: 2024.11.13 - 2024.11.14
 
