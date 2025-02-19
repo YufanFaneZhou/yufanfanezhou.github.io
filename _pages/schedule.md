@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-* Seminar on X-ray telescopes
+* Seminar on X-ray telescopes & A visit to Suzhou Campus, Nanjing University
   * Location: Suzhou, Jiangsu Province, China
   * Date: 2025.02.18 - 2025.02.19
 
