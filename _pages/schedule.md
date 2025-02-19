@@ -8,6 +8,9 @@ redirect_from:
 ---
 
 {% include base_path %}
+* The 6th Young Scientist Forum of Planetary Science
+  * Location: Tunxi, Huangshan, Anhui Province, China
+  * Date: 2025.03.25 - 2025.03.30
 
 * Seminar on X-ray telescopes & A visit to Suzhou Campus, Nanjing University
   * Location: Suzhou, Jiangsu Province, China
@@ -50,7 +53,7 @@ redirect_from:
   * Date: 2023.11.26 - 2023.11.29
 
 * The 3rd China Space Science Assembly 
-  * Location: Deqing, Zhejiang Province, China
+  * Location: Deqing, Huzhou, Zhejiang Province, China
   * Date: 2023.10.14 - 2023.10.18
 
 * 2023 Annual Meeting of the Chinese Astronomical Society
