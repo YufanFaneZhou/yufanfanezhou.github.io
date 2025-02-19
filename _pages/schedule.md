@@ -9,6 +9,10 @@ redirect_from:
 
 {% include base_path %}
 
+* Seminar on X-ray telescopes
+  * Location: Suzhou, Jiangsu Province, China
+  * Date: 2025.02.18 - 2025.02.19
+
 * Seminar on Frontiers of Planetary Science and Deep Space Exploration of the Chinese Astronomical Society (2024)
   * Location: Xiamen, Fujian Province, China
   * Date: 2024.12.22 - 2024.12.25
