@@ -8,6 +8,15 @@ redirect_from:
 ---
 
 {% include base_path %}
+* Prediction for close approaches with terrestrial planets of asteroids from the main belt
+  * Type: Journal article
+  * Journal: Monthly Notices of the Royal Astronomical Society (MNRAS)
+  * Language: English
+  * Date: 2025-02-20
+  * Contribution: First&Corresponding author
+  * DOI: 10.1093/mnras/staf311
+  * URL: to be added
+  * Arxiv: [https://arxiv.org/pdf/2502.13489](https://arxiv.org/pdf/2502.13489)
 
 * MARTIANS (MARs2020, TIANwen and So on) would see more potentially hazardous asteroids than Earthlings
   * Type: Journal article
