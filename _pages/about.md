@@ -23,9 +23,9 @@ Education
 
 Publications
 ======
-(Updated on June 6, 2024)
+(Updated on February 20, 2025)
 * English publications
-  * First/Corresponding author: 1 (1 MNRASL)
+  * First/Corresponding author: 2 (2 MNRAS)
   * Co-author: 0
 * Chinese publications
   * First/Corresponding author: 1 (1 journal)
