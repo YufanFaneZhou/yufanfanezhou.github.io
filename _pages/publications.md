@@ -8,6 +8,9 @@ redirect_from:
 ---
 
 {% include base_path %}
+
+ENGLISH PUBLICATIONS
+
 * Prediction for close approaches with terrestrial planets of asteroids from the main belt
   * Type: Journal article
   * Journal: Monthly Notices of the Royal Astronomical Society (MNRAS)
@@ -28,6 +31,9 @@ redirect_from:
   * URL: [https://doi.org/10.1093/mnrasl/slae040](https://doi.org/10.1093/mnrasl/slae040)
   * Arxiv: [https://arxiv.org/pdf/2405.02614](https://arxiv.org/pdf/2405.02614)
   * See news letters about this work from [POPULAR SCIENCE](https://www.popsci.com/science/mars-asteroids/) and [LIVE SCIENCE](https://www.livescience.com/space/mars/mars-is-more-prone-to-devastating-asteroid-impacts-than-we-thought-new-study-hints)
+
+
+CHINESE PUBLICATIONS (中文出版物)
 
 * 利用N体模拟研究银河系与仙女座星系的并合 (Merger of the Milky Way and the Andromeda Galaxy with N-body Simulations)
   * Type: Journal article
