@@ -15,7 +15,7 @@ redirect_from:
   * Date: 2025-02-20
   * Contribution: First&Corresponding author
   * DOI: 10.1093/mnras/staf311
-  * URL: to be added
+  * URL: [https://doi.org/10.1093/mnras/staf311](https://doi.org/10.1093/mnras/staf311）
   * Arxiv: [https://arxiv.org/pdf/2502.13489](https://arxiv.org/pdf/2502.13489)
 
 * MARTIANS (MARs2020, TIANwen and So on) would see more potentially hazardous asteroids than Earthlings
