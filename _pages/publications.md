@@ -11,7 +11,7 @@ redirect_from:
 
 ENGLISH PUBLICATIONS
 
-* (2) Prediction for close approaches with terrestrial planets of asteroids from the main belt
+* 2) Prediction for close approaches with terrestrial planets of asteroids from the main belt
   * Type: Journal article
   * Journal: Monthly Notices of the Royal Astronomical Society (MNRAS)
   * Language: English
@@ -21,7 +21,7 @@ ENGLISH PUBLICATIONS
   * URL: [https://doi.org/10.1093/mnras/staf311](https://doi.org/10.1093/mnras/staf311)
   * Arxiv: [https://arxiv.org/pdf/2502.13489](https://arxiv.org/pdf/2502.13489)
 
-* (1) MARTIANS (MARs2020, TIANwen and So on) would see more potentially hazardous asteroids than Earthlings
+* 1) MARTIANS (MARs2020, TIANwen and So on) would see more potentially hazardous asteroids than Earthlings
   * Type: Journal article
   * Journal: Monthly Notices of the Royal Astronomical Society: Letters (MNRASL)
   * Language: English
@@ -35,7 +35,7 @@ ENGLISH PUBLICATIONS
 
 CHINESE PUBLICATIONS (中文出版物)
 
-* (1) 利用N体模拟研究银河系与仙女座星系的并合 (Merger of the Milky Way and the Andromeda Galaxy with N-body Simulations)
+* 1) 利用N体模拟研究银河系与仙女座星系的并合 (Merger of the Milky Way and the Andromeda Galaxy with N-body Simulations)
   * Type: Journal article
   * Journal: 天文学进展 (PROGRESS IN ASTRONOMY)
   * Language: Chinese
