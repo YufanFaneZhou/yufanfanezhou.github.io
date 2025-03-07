@@ -15,7 +15,7 @@ ENGLISH PUBLICATIONS
   * Type: Journal article
   * Journal: Monthly Notices of the Royal Astronomical Society (MNRAS)
   * Language: English
-  * Date: 2025-02-20
+  * Date: 2025-02-28
   * Contribution: First&Corresponding author
   * DOI: 10.1093/mnras/staf311
   * URL: [https://doi.org/10.1093/mnras/staf311](https://doi.org/10.1093/mnras/staf311)
