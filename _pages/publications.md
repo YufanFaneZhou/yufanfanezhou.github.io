@@ -11,13 +11,13 @@ redirect_from:
 
 ENGLISH PUBLICATIONS
 
-* (2) Zhou, Y. F., Li, Z., Li, H. & Zhou, L. Prediction for close approaches with terrestrial planets of asteroids from the main belt. Monthly Notices of the Royal Astronomical Society 538, 258–265 (2025).
+* (2) **Zhou, Y. F.**, Li, Z., Li, H. & Zhou, L. Prediction for close approaches with terrestrial planets of asteroids from the main belt. Monthly Notices of the Royal Astronomical Society 538, 258–265 (2025).
   * Contribution: First&Corresponding author
   * DOI: 10.1093/mnras/staf311
   * URL: [https://doi.org/10.1093/mnras/staf311](https://doi.org/10.1093/mnras/staf311)
   * Arxiv: [https://arxiv.org/pdf/2502.13489](https://arxiv.org/pdf/2502.13489)
 
-* (1) Zhou, Y. F., Li, H., Li, Z. & Zhou, L. MARTIANS (MARs2020, TIANwen and So on) would see more potentially hazardous asteroids than Earthlings. Monthly Notices of the Royal Astronomical Society: Letters 532, L7–L13 (2024).
+* (1) **Zhou, Y. F.**, Li, H., Li, Z. & Zhou, L. MARTIANS (MARs2020, TIANwen and So on) would see more potentially hazardous asteroids than Earthlings. Monthly Notices of the Royal Astronomical Society: Letters 532, L7–L13 (2024).
   * Contribution: First&Corresponding author
   * DOI: 10.1093/mnrasl/slae040
   * URL: [https://doi.org/10.1093/mnrasl/slae040](https://doi.org/10.1093/mnrasl/slae040)
