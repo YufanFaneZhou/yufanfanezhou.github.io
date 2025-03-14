@@ -11,14 +11,12 @@ redirect_from:
 
 ENGLISH PUBLICATIONS
 
-* (2) **Zhou, Y. F.**, Li, Z., Li, H. & Zhou, L. Prediction for close approaches with terrestrial planets of asteroids from the main belt. Monthly Notices of the Royal Astronomical Society 538, 258–265 (2025).
-  * Contribution: First&Corresponding author
+(2) **Zhou, Y. F.**, Li, Z., Li, H. & Zhou, L. Prediction for close approaches with terrestrial planets of asteroids from the main belt. Monthly Notices of the Royal Astronomical Society 538, 258–265 (2025).
   * DOI: 10.1093/mnras/staf311
   * URL: [https://doi.org/10.1093/mnras/staf311](https://doi.org/10.1093/mnras/staf311)
   * Arxiv: [https://arxiv.org/pdf/2502.13489](https://arxiv.org/pdf/2502.13489)
 
-* (1) **Zhou, Y. F.**, Li, H., Li, Z. & Zhou, L. MARTIANS (MARs2020, TIANwen and So on) would see more potentially hazardous asteroids than Earthlings. Monthly Notices of the Royal Astronomical Society: Letters 532, L7–L13 (2024).
-  * Contribution: First&Corresponding author
+(1) **Zhou, Y. F.**, Li, H., Li, Z. & Zhou, L. MARTIANS (MARs2020, TIANwen and So on) would see more potentially hazardous asteroids than Earthlings. Monthly Notices of the Royal Astronomical Society: Letters 532, L7–L13 (2024).
   * DOI: 10.1093/mnrasl/slae040
   * URL: [https://doi.org/10.1093/mnrasl/slae040](https://doi.org/10.1093/mnrasl/slae040)
   * Arxiv: [https://arxiv.org/pdf/2405.02614](https://arxiv.org/pdf/2405.02614)
@@ -27,7 +25,7 @@ ENGLISH PUBLICATIONS
 
 CHINESE PUBLICATIONS (中文出版物)
 
-* (1) 利用N体模拟研究银河系与仙女座星系的并合 (Merger of the Milky Way and the Andromeda Galaxy with N-body Simulations)
+(1) 利用N体模拟研究银河系与仙女座星系的并合 (Merger of the Milky Way and the Andromeda Galaxy with N-body Simulations)
   * Type: Journal article
   * Journal: 天文学进展 (PROGRESS IN ASTRONOMY)
   * Language: Chinese
