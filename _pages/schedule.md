@@ -8,6 +8,7 @@ redirect_from:
 ---
 
 {% include base_path %}
+
 (14) The 6th Young Scientist Forum of Planetary Science
   * Location: Tunxi, Huangshan, Anhui Province, China
   * Date: 2025.03.25 - 2025.03.30
