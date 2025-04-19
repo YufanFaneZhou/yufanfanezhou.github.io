@@ -1,110 +1,119 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yufan Fane Zhou</title>
-    <style>
-        /* 全局样式 */
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            line-height: 1.6;
-            display: flex;
-        }  
-        /* 导航栏样式 */
-        nav {
-            background-color: #f4f4f4;
-            padding: 15px 0;
-            text-align: center;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-            width: 100%;
-            position: fixed;
-            top: 0;
-            z-index: 100;
-        }
-        nav a {
-            display: inline-block;
-            padding: 10px 20px;
-            margin: 0 10px;
-            text-decoration: none;
-            color: black;
-            font-size: 16px;
-            border-radius: 4px;
-            transition: background-color 0.3s;
-        }
-        nav a:hover {
-            background-color: #e0e0e0;
-        }
-        
-        /* 左侧图片区域 */
+<style>
+    /* 全局样式 */
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        line-height: 1.6;
+        display: flex;
+    }  
+    /* 导航栏样式 */
+    nav {
+        background-color: #f4f4f4;
+        padding: 15px 0;
+        text-align: center;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        width: 100%;
+        position: fixed;
+        top: 0;
+        z-index: 100;
+    }
+    nav a {
+        display: inline-block;
+        padding: 10px 20px;
+        margin: 0 10px;
+        text-decoration: none;
+        color: black;
+        font-size: 16px;
+        border-radius: 4px;
+        transition: background-color 0.3s;
+    }
+    nav a:hover {
+        background-color: #e0e0e0;
+    }
+    
+    /* 左侧图片区域 */
+    .sidebar {
+        width: 16.6667vw; /* 屏幕宽度的1/6 */
+        min-width: 150px; /* 设置最小宽度防止在非常小的屏幕上太窄 */
+        max-width: 250px; /* 设置最大宽度防止在大屏幕上太宽 */
+        padding: 80px 20px 20px;
+        position: fixed;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        overflow-y: auto;
+    }
+    .sidebar img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 2px;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .sidebar-caption {
+        text-align: center;
+        font-size: 16px;
+        font-style: italic;
+        margin-bottom: 2px;
+    }
+    .image-group {
+        margin-bottom: 4px;
+        width: 100%;
+    }
+    
+    /* 内容区域样式 */
+    .content {
+        padding: 80px 20px 20px;
+        margin-left: calc(16.6667vw + 40px); /* 侧边栏宽度 + 额外的间距 */
+        flex: 1;
+    }
+    
+    /* 响应式调整 - 在小屏幕上进一步优化 */
+    @media (max-width: 768px) {
         .sidebar {
-            width: 250px;
-            padding: 80px 20px 20px;
-            position: fixed;
-            height: 100vh;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            overflow-y: auto;
+            width: 25vw; /* 在小屏幕上使用1/4宽度 */
+            min-width: 120px; /* 更小的最小宽度 */
+            padding: 80px 10px 20px; /* 减少内边距 */
         }
-        .sidebar img {
-            width: 100%;
-            height: auto;
-            margin-bottom: 2px;
-            border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        }
-        .sidebar-caption {
-            text-align: center;
-            font-size: 16px;
-            font-style: italic;
-            margin-bottom: 2px;
-        }
-        .image-group {
-            margin-bottom: 4px;
-            width: 100%;
-        }
-        
-        /* 内容区域样式 */
         .content {
-            padding: 80px 20px 20px;
-            margin-left: 290px;
-            flex: 1;
+            margin-left: calc(25vw + 20px); /* 调整对应的内容区域边距 */
         }
-        /* 预设不同文字的样式 */
-        .big {
-            font-size: 24px; /* 大字号 */
-            margin-bottom: 5px;
-            font-weight: bold;
-        }
-        .mid {
-            font-size: 20px; /* 中字号 */
-            margin-bottom: 5px;
-        }
-        .midd {
-            font-size: 20px; /* 中字号加粗 */
-            margin-bottom: 5px;
-            font-weight: bold;
-        }
-        .small {
-            font-size: 16px; /* 小字号 */
-            margin-bottom: 5px;
-        }
-        .big_r {
-            font-size: 24px; /* 大字号红色 */
-            margin-bottom: 5px;
-            font-weight: bold;
-            color: red;
-        }
-        .big_p {
-            font-size: 24px; /* 大字号紫色 */
-            margin-bottom: 5px;
-            font-weight: bold;
-            color: purple;
-        }
-    </style>
+    }
+    
+    /* 预设不同文字的样式 */
+    .big {
+        font-size: 24px; /* 大字号 */
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+    .mid {
+        font-size: 20px; /* 中字号 */
+        margin-bottom: 5px;
+    }
+    .midd {
+        font-size: 20px; /* 中字号加粗 */
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+    .small {
+        font-size: 16px; /* 小字号 */
+        margin-bottom: 5px;
+    }
+    .big_r {
+        font-size: 24px; /* 大字号红色 */
+        margin-bottom: 5px;
+        font-weight: bold;
+        color: red;
+    }
+    .big_p {
+        font-size: 24px; /* 大字号紫色 */
+        margin-bottom: 5px;
+        font-weight: bold;
+        color: purple;
+    }
+</style>
 </head>
 <body>
     <!-- 导航栏 -->
