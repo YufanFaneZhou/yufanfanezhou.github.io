@@ -41,7 +41,7 @@
         /* 左侧图片区域 - 严格保持页面宽度的1/6 */
         .sidebar {
             width: calc(100vw / 6); /* 视口宽度的1/6 */
-            padding: 80px 20px 20px;
+            padding: 80px 10px 5px;
             position: fixed;
             height: 100vh;
             display: flex;
@@ -53,7 +53,7 @@
         .sidebar img {
             width: 100%;
             height: auto;
-            margin-bottom: 2px;
+            margin-bottom: 1px;
             border-radius: 8px;
             box-shadow: 0 2px 5px rgba(0,0,0,0.1);
         }
@@ -61,17 +61,17 @@
             text-align: center;
             font-size: 16px;
             font-style: italic;
-            margin-bottom: 2px;
+            margin-bottom: 1px;
         }
         .image-group {
-            margin-bottom: 4px;
+            margin-bottom: 1px;
             width: 100%;
         }
         
         /* 内容区域样式 - 调整margin-left为1/6宽度+10px间距 */
         .content {
             padding: 80px 20px 20px;
-            margin-left: calc(100vw / 6 + 10px); /* 1/6宽度 + 10px间距 */
+            margin-left: calc(100vw / 6 + 5px); /* 1/6宽度 + 10px间距 */
             flex: 1;
         }
         /* 预设不同文字的样式 */
@@ -119,12 +119,11 @@
     <div class="sidebar">
         <div class="image-group">
             <img src="files/pic_index_cat.jpeg" alt="My Cat">
-            <div class="sidebar-caption">My cat (named Peanut) says Meow Meow to you~</div>
         </div>
         
         <div class="image-group">
             <img src="files/pic_index_cat2.jpeg" alt="My Cat 2">
-            <div class="sidebar-caption">Again, Meow Meow~</div>
+            <div class="sidebar-caption">My cat Peanut says Meow Meow to you~</div>
         </div>
     </div>
     
