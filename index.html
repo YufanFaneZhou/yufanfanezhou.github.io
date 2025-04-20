@@ -17,27 +17,34 @@
         nav {
             background-color: #f4f4f4;
             padding: 15px 0;
-            text-align: center;
             box-shadow: 0 2px 5px rgba(0,0,0,0.1);
             width: 100%;
             position: fixed;
             top: 0;
             z-index: 100;
+            /* 新增 Flex 布局 */
+            display: flex;
+            justify-content: center; /* 水平居中 */
+            align-items: center;    /* 垂直居中 */
+            flex-wrap: nowrap;      /* 禁止换行 */
+            gap: 10px;             /* 链接之间的间距 */
         }
+        
         nav a {
             display: inline-block;
             padding: 10px 20px;
-            margin: 0 10px;
             text-decoration: none;
             color: black;
             font-size: 16px;
             border-radius: 4px;
             transition: background-color 0.3s;
+            /* 可选：让链接宽度自适应 */
+            white-space: nowrap;    /* 防止文字换行 */
         }
+        
         nav a:hover {
             background-color: #e0e0e0;
         }
-        
         /* 左侧图片区域 - 严格保持页面宽度的1/6 */
         .sidebar {
             width: calc(100vw / 6); /* 视口宽度的1/6 */
