@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Publications</title>
+    <title>Yufan Fane Zhou</title>
     <style>
         /* 全局样式 */
         body {
@@ -11,32 +11,75 @@
             margin: 0;
             padding: 0;
             line-height: 1.6;
+            display: flex;
         }  
         /* 导航栏样式 */
         nav {
             background-color: #f4f4f4;
-            padding: 15px 0;
-            text-align: center;
+            padding: 5px 0;
             box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            width: 100%;
+            position: fixed;
+            top: 0;
+            z-index: 100;
+            /* 新增 Flex 布局 */
+            display: flex;
+            justify-content: center; /* 水平居中 */
+            align-items: center;    /* 垂直居中 */
+            flex-wrap: nowrap;      /* 禁止换行 */
+            gap: 10px;             /* 链接之间的间距 */
         }
+        
         nav a {
             display: inline-block;
-            padding: 10px 20px;
-            margin: 0 10px;
+            padding: 5px 20px;
             text-decoration: none;
             color: black;
             font-size: 16px;
             border-radius: 4px;
             transition: background-color 0.3s;
+            /* 可选：让链接宽度自适应 */
+            white-space: nowrap;    /* 防止文字换行 */
         }
+        
         nav a:hover {
             background-color: #e0e0e0;
         }
-        /* 内容区域样式 */
+        /* 左侧图片区域 - 严格保持页面宽度的1/6 */
+        .sidebar {
+            width: calc(100vw / 6); /* 视口宽度的1/6 */
+            padding: 80px 10px 0.5px;
+            position: fixed;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            overflow-y: auto;
+            box-sizing: border-box; /* 确保padding不影响总宽度 */
+        }
+        .sidebar img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 0.5px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .sidebar-caption {
+            text-align: center;
+            font-size: 16px;
+            font-style: italic;
+            margin-bottom: 0.5px;
+        }
+        .image-group {
+            margin-bottom: 0.5px;
+            width: 100%;
+        }
+        
+        /* 内容区域样式 - 调整margin-left为1/6宽度+2px间距 */
         .content {
-            padding: 0px;
-            max-width: 1000px;
-            margin: 0 auto;
+            padding: 50px 20px 20px;
+            margin-left: calc(100vw / 6 + 2px); /* 1/6宽度 + 2px间距 */
+            flex: 1;
         }
         /* 预设不同文字的样式 */
         .big {
