@@ -64,6 +64,7 @@
         /* 背景颜色设置 */
         #overview-section {
             background-color: #e6f2ff; /* 淡蓝色 */
+            overflow: hidden; /* 清除浮动 */
         }
         
         #publications-section {
@@ -74,44 +75,46 @@
             background-color: #f2e6ff; /* 淡紫色 */
         }
         
-        /* 图片样式 */
-        .section-image {
+        /* Overview部分图片和文字环绕布局 */
+        .overview-image {
+            width: 25%;
+            float: left;
+            margin-right: 20px;
+            margin-bottom: 15px;
+        }
+        
+        .overview-image img {
             width: 100%;
             height: auto;
-            margin: 15px 0;
             border-radius: 8px;
             box-shadow: 0 2px 5px rgba(0,0,0,0.1);
         }
         
-        .image-caption {
+        .overview-image-caption {
+            text-align: center;
+            font-size: 16px;
+            font-style: italic;
+            margin-top: 8px;
+        }
+        
+        /* Publications部分图片布局 */
+        .publications-image {
+            width: 50%;
+            margin: 0 auto 15px;
+        }
+        
+        .publications-image img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        .publications-image-caption {
+            text-align: center;
             font-size: 16px;
             font-style: italic;
             margin-bottom: 15px;
-        }
-        
-        /* Overview部分的特殊布局 */
-        #overview-section {
-            display: flex;
-            flex-wrap: wrap;
-            align-items: flex-start;
-        }
-        
-        .overview-image-container {
-            width: 25%;
-            padding-right: 20px;
-            box-sizing: border-box;
-        }
-        
-        .overview-content {
-            width: 75%;
-            box-sizing: border-box;
-        }
-        
-        /* Publications部分的图片居中 */
-        .publications-image-container {
-            display: flex;
-            justify-content: center;
-            width: 100%;
         }
         
         /* 部分标题样式 */
@@ -181,15 +184,16 @@
                 font-size: 14px;
             }
             
-            /* 小屏幕下恢复常规布局 */
-            #overview-section {
-                display: block;
+            /* 小屏幕下取消文字环绕 */
+            .overview-image {
+                width: 100%;
+                float: none;
+                margin-right: 0;
+                margin-bottom: 15px;
             }
             
-            .overview-image-container,
-            .overview-content {
+            .publications-image {
                 width: 100%;
-                padding-right: 0;
             }
         }
     </style>
@@ -208,47 +212,45 @@
         <section id="overview-section" class="section">
             <div class="section-title big">Overview</div>
             
-            <div class="overview-image-container">
-                <img src="files/pic_index_cat.jpg" alt="My Cat" class="section-image">
-                <div class="image-caption">My cat Peanut standing on my mom's calligraphy</div>
+            <div class="overview-image">
+                <img src="files/pic_index_cat.jpg" alt="My Cat">
+                <div class="overview-image-caption">My cat Peanut & my mom's calligraphy</div>
             </div>
             
-            <div class="overview-content">
-                <div>
-                    <span class="big_r">Welcome to the home page of </span>
-                    <span class="big_p">Yufan Fane ZHOU! </span>
-                    <span class="midd">(Page updated on Aug 3, 2025)</span>
-                </div>
-                
-                <div class="big">Key words </div>
-                <div class="mid">Numerical simulation; Galaxy; Solar System</div>
-                
-                <div class="big">Education</div>
-                <div>
-                    <span class="mid">2022.9-2027.6: <a href="https://www.nju.edu.cn/en/" target="_blank">Nanjing University</a> (<a href="https://astronomy.nju.edu.cn/EN/index.html" target="_blank">School of Astronomy and Space Science</a>) | Ph.D Candidate </span>
-                    <span class="small">(Supervisor: <a href="https://astronomy.nju.edu.cn/EN/People/Professors/20200707/i113707.html" target="_blank">Prof. Zhiyuan LI</a>)</span>
-                </div>
-                <div class="mid">2018.9-2022.6: <a href="https://www.nju.edu.cn/en/" target="_blank">Nanjing University</a> (<a href="https://dii.nju.edu.cn/kym_en/" target="_blank">Kuang Yaming Honors School</a>) | Bachelor </div>
-                
-                <div class="big">Publications Overview</div>
-                <div class="mid">English Publications (First/Corresponding Author): 3 (1*ApJ, 2*MNRAS) </div>
-                <div class="mid">English Publications (Co-Author): 1 (1*ApJ) </div>
-                <div class="mid">Chinese Publications (First/Corresponding Author): 2 (1 Paper, 1 Popular science article) </div>
-                <div class="mid">Chinese Publications (Co-Author): 0 </div>
-
-                <div class="big">Some Links</div>
-                <div class="mid">ORCID: <a href="https://orcid.org/0009-0006-0194-6211" target="_blank">0009-0006-0194-6211</a> </div>
+            <div>
+                <span class="big_r">Welcome to the home page of </span>
+                <span class="big_p">Yufan Fane ZHOU! </span>
+                <span class="midd">(Page updated on Aug 3, 2025)</span>
             </div>
+            
+            <div class="big">Key words </div>
+            <div class="mid">Numerical simulation; Galaxy; Solar System</div>
+            
+            <div class="big">Education</div>
+            <div>
+                <span class="mid">2022.9-2027.6: <a href="https://www.nju.edu.cn/en/" target="_blank">Nanjing University</a> (<a href="https://astronomy.nju.edu.cn/EN/index.html" target="_blank">School of Astronomy and Space Science</a>) | Ph.D Candidate </span>
+                <span class="small">(Supervisor: <a href="https://astronomy.nju.edu.cn/EN/People/Professors/20200707/i113707.html" target="_blank">Prof. Zhiyuan LI</a>)</span>
+            </div>
+            <div class="mid">2018.9-2022.6: <a href="https://www.nju.edu.cn/en/" target="_blank">Nanjing University</a> (<a href="https://dii.nju.edu.cn/kym_en/" target="_blank">Kuang Yaming Honors School</a>) | Bachelor </div>
+            
+            <div class="big">Publications Overview</div>
+            <div class="mid">English Publications (First/Corresponding Author): 3 (1*ApJ, 2*MNRAS) </div>
+            <div class="mid">English Publications (Co-Author): 1 (1*ApJ) </div>
+            <div class="mid">Chinese Publications (First/Corresponding Author): 2 (1 Paper, 1 Popular science article) </div>
+            <div class="mid">Chinese Publications (Co-Author): 0 </div>
+
+            <div class="big">Some Links</div>
+            <div class="mid">ORCID: <a href="https://orcid.org/0009-0006-0194-6211" target="_blank">0009-0006-0194-6211</a> </div>
         </section>
         
         <!-- 出版物部分 -->
         <section id="publications-section" class="section">
             <div class="section-title big">Publications</div>
 
-            <div class="publications-image-container">
-                <img src="files/pic_publications_martians.jpg" alt="MNRAS Publication" class="section-image">
+            <div class="publications-image">
+                <img src="files/pic_publications_martians.jpg" alt="MNRAS Publication">
+                <div class="publications-image-caption">MNRAS, 523, L7</div>
             </div>
-            <div class="image-caption">MNRAS, 523, L7</div>
 
             <div class="big">English Publications</div>
 
