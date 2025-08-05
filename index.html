@@ -64,7 +64,7 @@
         
         /* 图片样式 */
         .section-image {
-            max-width: 25%;
+            width: 50%;
             height: auto;
             margin: 15px 0;
             border-radius: 8px;
@@ -76,6 +76,31 @@
             font-size: 16px;
             font-style: italic;
             margin-bottom: 15px;
+        }
+        
+        /* Overview部分的特殊布局 */
+        #overview-section {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: flex-start;
+        }
+        
+        .overview-image-container {
+            width: 50%;
+            padding-right: 20px;
+            box-sizing: border-box;
+        }
+        
+        .overview-content {
+            width: 50%;
+            box-sizing: border-box;
+        }
+        
+        /* Publications部分的图片居中 */
+        .publications-image-container {
+            display: flex;
+            justify-content: center;
+            width: 100%;
         }
         
         /* 预设不同文字的样式 */
@@ -138,59 +163,77 @@
             .small {
                 font-size: 14px;
             }
+            
+            /* 小屏幕下恢复常规布局 */
+            #overview-section {
+                display: block;
+            }
+            
+            .overview-image-container,
+            .overview-content {
+                width: 100%;
+                padding-right: 0;
+            }
+            
+            .section-image {
+                width: 100%;
+            }
         }
     </style>
 </head>
 <body>
     <!-- 导航栏 -->
     <nav>
-        <a id="nav-home">Homepage</a>
+        <a id="nav-overview">Overview</a>
         <a id="nav-publications">Publications</a>
         <a id="nav-schedule">Schedule</a>
     </nav>
     
     <!-- 主要内容 -->
     <div class="main-content">
-        <!-- 首页部分 -->
-        <section id="home-section" class="section">
-            <div>
-                <span class="big_r">Welcome to the home page of </span>
-                <span class="big_p">Yufan Fane ZHOU! </span>
-                <span class="midd">(Page updated on Aug 3, 2025)</span>
+        <!-- Overview部分 -->
+        <section id="overview-section" class="section">
+            <div class="overview-image-container">
+                <img src="files/pic_index_cat.jpg" alt="My Cat" class="section-image">
+                <div class="image-caption">My cat Peanut standing on my mom's calligraphy</div>
             </div>
             
-            <img src="files/pic_index_cat.jpg" alt="My Cat" class="section-image">
-            <div class="image-caption">My cat Peanut standing on my mom's calligraphy</div>
-            
-            <img src="files/pic_index_cat2.jpg" alt="My Cat 2" class="section-image">
-            <div class="image-caption">Peanut says Meow Meow to you~</div>
-            
-            <div class="big">Key words </div>
-            <div class="mid">Numerical simulation; Galaxy; Solar System</div>
-            
-            <div class="big">Education</div>
-            <div>
-                <span class="mid">2022.9-2027.6: <a href="https://www.nju.edu.cn/en/" target="_blank">Nanjing University</a> (<a href="https://astronomy.nju.edu.cn/EN/index.html" target="_blank">School of Astronomy and Space Science</a>) | Ph.D Candidate </span>
-                <span class="small">(Supervisor: <a href="https://astronomy.nju.edu.cn/EN/People/Professors/20200707/i113707.html" target="_blank">Prof. Zhiyuan LI</a>)</span>
-            </div>
-            <div class="mid">2018.9-2022.6: <a href="https://www.nju.edu.cn/en/" target="_blank">Nanjing University</a> (<a href="https://dii.nju.edu.cn/kym_en/" target="_blank">Kuang Yaming Honors School</a>) | Bachelor </div>
-            
-            <div class="big">Publications Overview</div>
-            <div class="mid">English Publications (First/Corresponding Author): 3 (1*ApJ, 2*MNRAS) </div>
-            <div class="mid">English Publications (Co-Author): 1 (1*ApJ) </div>
-            <div class="mid">Chinese Publications (First/Corresponding Author): 2 (1 Paper, 1 Popular science article) </div>
-            <div class="mid">Chinese Publications (Co-Author): 0 </div>
+            <div class="overview-content">
+                <div>
+                    <span class="big_r">Welcome to the home page of </span>
+                    <span class="big_p">Yufan Fane ZHOU! </span>
+                    <span class="midd">(Page updated on Aug 3, 2025)</span>
+                </div>
+                
+                <div class="big">Key words </div>
+                <div class="mid">Numerical simulation; Galaxy; Solar System</div>
+                
+                <div class="big">Education</div>
+                <div>
+                    <span class="mid">2022.9-2027.6: <a href="https://www.nju.edu.cn/en/" target="_blank">Nanjing University</a> (<a href="https://astronomy.nju.edu.cn/EN/index.html" target="_blank">School of Astronomy and Space Science</a>) | Ph.D Candidate </span>
+                    <span class="small">(Supervisor: <a href="https://astronomy.nju.edu.cn/EN/People/Professors/20200707/i113707.html" target="_blank">Prof. Zhiyuan LI</a>)</span>
+                </div>
+                <div class="mid">2018.9-2022.6: <a href="https://www.nju.edu.cn/en/" target="_blank">Nanjing University</a> (<a href="https://dii.nju.edu.cn/kym_en/" target="_blank">Kuang Yaming Honors School</a>) | Bachelor </div>
+                
+                <div class="big">Publications Overview</div>
+                <div class="mid">English Publications (First/Corresponding Author): 3 (1*ApJ, 2*MNRAS) </div>
+                <div class="mid">English Publications (Co-Author): 1 (1*ApJ) </div>
+                <div class="mid">Chinese Publications (First/Corresponding Author): 2 (1 Paper, 1 Popular science article) </div>
+                <div class="mid">Chinese Publications (Co-Author): 0 </div>
 
-            <div class="big">Some Links</div>
-            <div class="mid">ORCID: <a href="https://orcid.org/0009-0006-0194-6211" target="_blank">0009-0006-0194-6211</a> </div>
+                <div class="big">Some Links</div>
+                <div class="mid">ORCID: <a href="https://orcid.org/0009-0006-0194-6211" target="_blank">0009-0006-0194-6211</a> </div>
+            </div>
         </section>
         
         <!-- 出版物部分 -->
         <section id="publications-section" class="section">
             <div class="big">English Publications </div>
-            
-            <img src="files/pic_publications_martians.jpg" alt="MNRAS Publication" class="section-image">
-            <div class="image-caption">MNRAS, 523, L7</div>
+
+            <div class="publications-image-container">
+                <img src="files/pic_publications_spider.jpg" alt="Popular Science" class="section-image">
+            </div>
+            <div class="image-caption">Popular science</div>
 
             <div>
                 <span class="mid">4. </span>
@@ -231,9 +274,6 @@
 
             <br>
             <div class="big">Chinese Publications</div>
-            
-            <img src="files/pic_publications_spider.jpg" alt="Popular Science" class="section-image">
-            <div class="image-caption">Popular science</div>
 
             <div>
                 <span class="mid">2. </span>
@@ -253,12 +293,6 @@
         
         <!-- 日程部分 -->
         <section id="schedule-section" class="section">
-            <img src="files/pic_schedule_anhui.jpg" alt="Anhui, China 2025" class="section-image">
-            <div class="image-caption">Anhui, China 2025</div>
-            
-            <img src="files/pic_schedule_busan.jpg" alt="Busan, Korea 2024" class="section-image">
-            <div class="image-caption">Busan, Korea 2024</div>
-
             <img src="files/pic_schedule_shandong.jpg" alt="Shandong, China 2023" class="section-image">
             <div class="image-caption">Shandong, China 2023</div>
             
@@ -282,17 +316,17 @@
 
     <script>
         // 获取导航按钮和对应的内容区域
-        const navHome = document.getElementById('nav-home');
+        const navOverview = document.getElementById('nav-overview');
         const navPublications = document.getElementById('nav-publications');
         const navSchedule = document.getElementById('nav-schedule');
         
-        const homeSection = document.getElementById('home-section');
+        const overviewSection = document.getElementById('overview-section');
         const publicationsSection = document.getElementById('publications-section');
         const scheduleSection = document.getElementById('schedule-section');
         
         // 添加点击事件监听器
-        navHome.addEventListener('click', () => {
-            homeSection.scrollIntoView({ behavior: 'smooth' });
+        navOverview.addEventListener('click', () => {
+            overviewSection.scrollIntoView({ behavior: 'smooth' });
         });
         
         navPublications.addEventListener('click', () => {
@@ -305,8 +339,8 @@
         
         // 可选：添加滚动监听来高亮当前可见部分的导航按钮
         window.addEventListener('scroll', () => {
-            const sections = [homeSection, publicationsSection, scheduleSection];
-            const navItems = [navHome, navPublications, navSchedule];
+            const sections = [overviewSection, publicationsSection, scheduleSection];
+            const navItems = [navOverview, navPublications, navSchedule];
             
             sections.forEach((section, index) => {
                 const rect = section.getBoundingClientRect();
