@@ -11,8 +11,8 @@
             margin: 0;
             padding: 0;
             line-height: 1.6;
-            display: flex;
         }  
+        
         /* 导航栏样式 */
         nav {
             background-color: #f4f4f4;
@@ -22,12 +22,11 @@
             position: fixed;
             top: 0;
             z-index: 100;
-            /* 新增 Flex 布局 */
             display: flex;
-            justify-content: center; /* 水平居中 */
-            align-items: center;    /* 垂直居中 */
-            flex-wrap: nowrap;      /* 禁止换行 */
-            gap: 10px;             /* 链接之间的间距 */
+            justify-content: center;
+            align-items: center;
+            flex-wrap: nowrap;
+            gap: 10px;
         }
         
         nav a {
@@ -38,129 +37,246 @@
             font-size: 16px;
             border-radius: 4px;
             transition: background-color 0.3s;
-            /* 可选：让链接宽度自适应 */
-            white-space: nowrap;    /* 防止文字换行 */
+            white-space: nowrap;
         }
         
         nav a:hover {
             background-color: #e0e0e0;
         }
-        /* 左侧图片区域 - 严格保持页面宽度的1/6 */
-        .sidebar {
-            width: calc(100vw / 6); /* 视口宽度的1/6 */
-            padding: 80px 10px 0.5px;
-            position: fixed;
-            height: 100vh;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            overflow-y: auto;
-            box-sizing: border-box; /* 确保padding不影响总宽度 */
+        
+        /* 主要内容区域 */
+        .main-content {
+            margin-top: 50px;
+            padding: 20px;
+            max-width: 100%;
+            box-sizing: border-box;
         }
-        .sidebar img {
-            width: 100%;
+        
+        /* 各部分内容区域 */
+        .section {
+            margin-bottom: 40px;
+            padding: 20px;
+            border-radius: 8px;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        /* 图片样式 */
+        .section-image {
+            max-width: 100%;
             height: auto;
-            margin-bottom: 0.5px;
+            margin: 15px 0;
             border-radius: 8px;
             box-shadow: 0 2px 5px rgba(0,0,0,0.1);
         }
-        .sidebar-caption {
+        
+        .image-caption {
             text-align: center;
             font-size: 16px;
             font-style: italic;
-            margin-bottom: 0.5px;
-        }
-        .image-group {
-            margin-bottom: 0.5px;
-            width: 100%;
+            margin-bottom: 15px;
         }
         
-        /* 内容区域样式 - 调整margin-left为1/6宽度+2px间距 */
-        .content {
-            padding: 50px 20px 20px;
-            margin-left: calc(100vw / 6 + 2px); /* 1/6宽度 + 2px间距 */
-            flex: 1;
-        }
         /* 预设不同文字的样式 */
         .big {
-            font-size: 24px; /* 大字号 */
-            margin-bottom: 5px;
+            font-size: 24px;
+            margin-bottom: 15px;
             font-weight: bold;
         }
+        
         .mid {
-            font-size: 20px; /* 中字号 */
-            margin-bottom: 5px;
+            font-size: 20px;
+            margin-bottom: 10px;
         }
+        
         .midd {
-            font-size: 20px; /* 中字号加粗 */
-            margin-bottom: 5px;
+            font-size: 20px;
+            margin-bottom: 10px;
             font-weight: bold;
         }
+        
         .small {
-            font-size: 16px; /* 小字号 */
-            margin-bottom: 5px;
+            font-size: 16px;
+            margin-bottom: 10px;
         }
+        
         .big_r {
-            font-size: 24px; /* 大字号红色 */
-            margin-bottom: 5px;
+            font-size: 24px;
+            margin-bottom: 15px;
             font-weight: bold;
             color: red;
         }
+        
         .big_p {
-            font-size: 24px; /* 大字号紫色 */
-            margin-bottom: 5px;
+            font-size: 24px;
+            margin-bottom: 15px;
             font-weight: bold;
             color: purple;
+        }
+        
+        /* 响应式设计 */
+        @media (max-width: 768px) {
+            nav {
+                flex-wrap: wrap;
+                padding: 5px;
+            }
+            
+            nav a {
+                padding: 5px 10px;
+                font-size: 14px;
+            }
+            
+            .big, .big_r, .big_p {
+                font-size: 20px;
+            }
+            
+            .mid, .midd {
+                font-size: 18px;
+            }
+            
+            .small {
+                font-size: 14px;
+            }
         }
     </style>
 </head>
 <body>
     <!-- 导航栏 -->
     <nav>
-        <a href="index.html">Homepage</a>
-        <a href="publications.html">Publications</a>
-        <a href="schedule.html">Schedule</a>
+        <a href="#home">Homepage</a>
+        <a href="#publications">Publications</a>
+        <a href="#schedule">Schedule</a>
     </nav>
     
-    <!-- 左侧图片区域 -->
-    <div class="sidebar">
-        <div class="image-group">
-            <img src="files/pic_index_cat.jpg" alt="My Cat">
-            <div class="sidebar-caption">My cat Peanut standing on my mom's calligraphy</div>
-        </div>
-        
-        <div class="image-group">
-            <img src="files/pic_index_cat2.jpg" alt="My Cat 2">
-            <div class="sidebar-caption">Peanut says Meow Meow to you~</div>
-        </div>
-    </div>
-    
     <!-- 主要内容 -->
-    <div class="content">
-        <div>
-            <span class="big_r">Welcome to the home page of </span>
-            <span class="big_p">Yufan Fane ZHOU! </span>
-            <span class="midd">(Page updated on Aug 3, 2025)</span>
-        </div>
-        
-        <div class="big">Key words </div>
-        <div class="mid">Numerical simulation; Galaxy; Solar System</div>
-        
-        <div class="big">Education</div>
-        <div>
-            <span class="mid">2022.9-2027.6: <a href="https://www.nju.edu.cn/en/" target="_blank">Nanjing University</a> (<a href="https://astronomy.nju.edu.cn/EN/index.html" target="_blank">School of Astronomy and Space Science</a>) | Ph.D Candidate </span>
-            <span class="small">(Supervisor: <a href="https://astronomy.nju.edu.cn/EN/People/Professors/20200707/i113707.html" target="_blank">Prof. Zhiyuan LI</a>)</span>
-        </div>
-        <div class="mid">2018.9-2022.6: <a href="https://www.nju.edu.cn/en/" target="_blank">Nanjing University</a> (<a href="https://dii.nju.edu.cn/kym_en/" target="_blank">Kuang Yaming Honors School</a>) | Bachelor </div>
-        
-        <div class="big">Publications Overview</div>
-        <div class="mid">English Publications (First/Corresponding Author): 3 (1*ApJ, 2*MNRAS) </div>
-        <div class="mid">English Publications (Co-Author): 1 (1*ApJ) </div>
-        <div class="mid">Chinese Publications (First/Corresponding Author): 2 (1 Paper, 1 Popular science article) </div>
-        <div class="mid">Chinese Publications (Co-Author): 0 </div>
+    <div class="main-content">
+        <!-- 首页部分 -->
+        <section id="home" class="section">
+            <div>
+                <span class="big_r">Welcome to the home page of </span>
+                <span class="big_p">Yufan Fane ZHOU! </span>
+                <span class="midd">(Page updated on Aug 3, 2025)</span>
+            </div>
+            
+            <img src="files/pic_index_cat.jpg" alt="My Cat" class="section-image">
+            <div class="image-caption">My cat Peanut standing on my mom's calligraphy</div>
+            
+            <img src="files/pic_index_cat2.jpg" alt="My Cat 2" class="section-image">
+            <div class="image-caption">Peanut says Meow Meow to you~</div>
+            
+            <div class="big">Key words </div>
+            <div class="mid">Numerical simulation; Galaxy; Solar System</div>
+            
+            <div class="big">Education</div>
+            <div>
+                <span class="mid">2022.9-2027.6: <a href="https://www.nju.edu.cn/en/" target="_blank">Nanjing University</a> (<a href="https://astronomy.nju.edu.cn/EN/index.html" target="_blank">School of Astronomy and Space Science</a>) | Ph.D Candidate </span>
+                <span class="small">(Supervisor: <a href="https://astronomy.nju.edu.cn/EN/People/Professors/20200707/i113707.html" target="_blank">Prof. Zhiyuan LI</a>)</span>
+            </div>
+            <div class="mid">2018.9-2022.6: <a href="https://www.nju.edu.cn/en/" target="_blank">Nanjing University</a> (<a href="https://dii.nju.edu.cn/kym_en/" target="_blank">Kuang Yaming Honors School</a>) | Bachelor </div>
+            
+            <div class="big">Publications Overview</div>
+            <div class="mid">English Publications (First/Corresponding Author): 3 (1*ApJ, 2*MNRAS) </div>
+            <div class="mid">English Publications (Co-Author): 1 (1*ApJ) </div>
+            <div class="mid">Chinese Publications (First/Corresponding Author): 2 (1 Paper, 1 Popular science article) </div>
+            <div class="mid">Chinese Publications (Co-Author): 0 </div>
 
-        <div class="big">Some Links</div>
-        <div class="mid">ORCID: <a href="https://orcid.org/0009-0006-0194-6211" target="_blank">0009-0006-0194-6211</a> </div>
+            <div class="big">Some Links</div>
+            <div class="mid">ORCID: <a href="https://orcid.org/0009-0006-0194-6211" target="_blank">0009-0006-0194-6211</a> </div>
+        </section>
+        
+        <!-- 出版物部分 -->
+        <section id="publications" class="section">
+            <div class="big">English Publications </div>
+            
+            <img src="files/pic_publications_martians.jpg" alt="MNRAS Publication" class="section-image">
+            <div class="image-caption">MNRAS, 523, L7</div>
+
+            <div>
+                <span class="mid">4. </span>
+                <span class="midd">Zhou, Y. F.*</span>
+                <span class="mid">, Li, Z.*, & Li, H. 2025, ApJ, 988, 205</span>
+            </div>
+            <div class="small">Title: N-body simulations of galaxy bars generated by satellite collisions: effects of the impact geometry</div>
+            <div class="small">URL: <a href="https://doi.org/10.3847/1538-4357/aded87" target="_blank">https://doi.org/10.3847/1538-4357/aded87</a></div>
+            <div class="small">Arxiv: <a href="https://arxiv.org/abs/2507.05745" target="_blank">https://arxiv.org/abs/2507.05745</a></div>
+
+            <div>
+                <span class="mid">3.Li, Z.*, Su, Z., Wang, S., </span>
+                <span class="midd">Zhou, Y. F.</span>
+                <span class="mid">, et al. 2025, ApJ, 983, 182</span>
+            </div>
+            <div class="small">Title: Ring or no ring -- Revisiting the Multiphase Nuclear Environment in M31</div>
+            <div class="small">URL: <a href="https://doi.org/10.3847/1538-4357/adc103" target="_blank">https://doi.org/10.3847/1538-4357/adc103</a></div>
+            <div class="small">Arxiv: <a href="https://arxiv.org/abs/2503.12346" target="_blank">https://arxiv.org/abs/2503.12346</a></div>
+
+            <div>
+                <span class="mid">2. </span>
+                <span class="midd">Zhou, Y. F.*</span>
+                <span class="mid">, Li, Z.*, Li, H., & Zhou, L. 2025, MNRAS, 538, 258</span>
+            </div>
+            <div class="small">Title: Prediction for close approaches with terrestrial planets of asteroids from the main belt</div>
+            <div class="small">URL: <a href="https://doi.org/10.1093/mnras/staf311" target="_blank">https://doi.org/10.1093/mnras/staf311</a></div>
+            <div class="small">Arxiv: <a href="https://arxiv.org/abs/2502.13489" target="_blank">https://arxiv.org/abs/2502.13489</a></div>
+
+            <div>
+                <span class="mid">1. </span>
+                <span class="midd">Zhou, Y. F.*</span>
+                <span class="mid">, Li, H., Li, Z.*, & Zhou, L. 2024, MNRAS, 532, L7</span>
+            </div>
+            <div class="small">Title: MARTIANS (MARs2020, TIANwen and So on) would see more potentially hazardous asteroids than Earthlings</div>
+            <div class="small">URL: <a href="https://doi.org/10.1093/mnrasl/slae040" target="_blank">https://doi.org/10.1093/mnrasl/slae040</a></div>
+            <div class="small">Arxiv: <a href="https://arxiv.org/abs/2405.02614" target="_blank">https://arxiv.org/abs/2405.02614</a></div>
+            <div class="small">See news report about this paper from <a href="https://www.popsci.com/science/mars-asteroids/" target="_blank">Popular Science</a> and <a href="https://www.livescience.com/space/mars/mars-is-more-prone-to-devastating-asteroid-impacts-than-we-thought-new-study-hints" target="_blank">Live Science</a></div>
+
+            <br>
+            <div class="big">Chinese Publications</div>
+            
+            <img src="files/pic_publications_spider.jpg" alt="Popular Science" class="section-image">
+            <div class="image-caption">Popular science</div>
+
+            <div>
+                <span class="mid">2. </span>
+                <span class="midd">Zhou Y F</span>
+                <span class="mid">. Travel on a spider - Use spider pulsars for interstellar travel. Amateur Astronomer, 2025, 04: 56-59</span>
+            </div>
+            <div class="small">PDF file of this popular science article: <a href="files/2025twahz_spider.pdf" target="_blank" rel="noopener noreferrer">here</a></div>
+
+            <div>
+                <span class="mid">1. </span>
+                <span class="midd">Zhou Y F*</span>
+                <span class="mid">, Li Z Y, Chang J. How to use N-body simulation to study the merger of the Milky Way and the Andromeda galaxy[J]. Progress in Astronomy, 2023, 41(04): 476-494.</span>
+            </div>
+            <div class="small">Link: <a href="https://www.shao.cas.cn/twxjz/wzll/202304/202304sp/202312/P020240123566138368168.pdf" target="_blank">here</a></div>
+            <div class="small">DOI: 10.3969/j.issn.1000-8349.2023.04.02</a></div>
+        </section>
+        
+        <!-- 日程部分 -->
+        <section id="schedule" class="section">
+            <img src="files/pic_schedule_anhui.jpg" alt="Anhui, China 2025" class="section-image">
+            <div class="image-caption">Anhui, China 2025</div>
+            
+            <img src="files/pic_schedule_busan.jpg" alt="Busan, Korea 2024" class="section-image">
+            <div class="image-caption">Busan, Korea 2024</div>
+
+            <img src="files/pic_schedule_shandong.jpg" alt="Shandong, China 2023" class="section-image">
+            <div class="image-caption">Shandong, China 2023</div>
+            
+            <div class="mid">15. 2025.06.26-2025.06.29 [Suzhou, Jiangsu Province, China]: Seminar on Galaxy Mergers and Interactions in the Age of Space Telescopes</div>
+            <div class="mid">14. 2025.03.25-2025.03.30 [Tunxi, Huangshan, Anhui Province, China]: The 6th Youth Planetary Forum</div>
+            <div class="mid">13. 2025.02.18-2025.02.19 [Suzhou, Jiangsu Province, China]: Seminar on X-ray telescopes</div>
+            <div class="mid">12. 2024.12.22-2024.12.25 [Xiamen, Fujian Province, China]: Frontier Symposium on Planetary Science and Deep Space Exploration of the Chinese Astronomical Society (2024)</div>
+            <div class="mid">11. 2024.11.13-2024.11.14 [Suzhou, Jiangsu Province, China]: Seminar on MEAYIN Scientific Targets & Solar System Celestial Body Exploration</div>
+            <div class="mid">10. 2024.10.16-2024.10.19 [Suzhou, Jiangsu Province, China]: Scientific Symposium on the Andromeda Galaxy M31</div>
+            <div class="mid">9. 2024.10.06-2024.10.12 [Nanjing, Jiangsu Province, China]: 2024 National Planetary Science Conference</div>
+            <div class="mid">8. 2024.09.10-2024.09.14 [Bejing, China]: A visit to Tsinghua University and NAOC</div>
+            <div class="mid">7. 2024.07.12-2024.07.22 [Busan, Korea]: The 45th COSPAR Scientific Assembly (COSPAR 2024)</div>
+            <div class="mid">6. 2024.01.04-2024.01.05 [Suzhou, Jiangsu Province, China]: Seminar on Deep Space Polarization Detection</div>
+            <div class="mid">5. 2023.12.08-2023.12.10 [Suzhou, Jiangsu Province, China]: Youth Forum on Deep Space Exploration (2023)</div>
+            <div class="mid">4. 2023.11.26-2023.11.29 [Tengchong, Yunnan Province, China]: Frontier Symposium on Planetary Science and Deep Space Exploration of the Chinese Astronomical Society (2023)</div>
+            <div class="mid">3. 2023.10.14-2023.10.18 [Deqing, Huzhou, Zhejiang Province, China]: The 3rd China Space Science Assembly</div>
+            <div class="mid">2. 2023.08.29-2023.09.02 [Weihai, Shandong Province, China]: 2023 Annual Meeting of the Chinese Astronomical Society</div>
+            <div class="mid">1. 2023.05.25-2023.05.27 [Bejing, China]: A visit to Tsinghua University</div>
+        </section>
     </div>
 </body>
 </html>
