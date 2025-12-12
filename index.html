@@ -349,10 +349,12 @@
         const navOverview = document.getElementById('nav-overview');
         const navPublications = document.getElementById('nav-publications');
         const navSchedule = document.getElementById('nav-schedule');
+        const navProposals = document.getElementById('nav-proposals');
         
         const overviewSection = document.getElementById('overview-section');
         const publicationsSection = document.getElementById('publications-section');
         const scheduleSection = document.getElementById('schedule-section');
+        const proposalsSection = document.getElementById('proposals-section');
         
         // 添加点击事件监听器
         navOverview.addEventListener('click', () => {
@@ -366,11 +368,15 @@
         navSchedule.addEventListener('click', () => {
             scheduleSection.scrollIntoView({ behavior: 'smooth' });
         });
+
+        navProposals.addEventListener('click', () => {
+            proposalsSection.scrollIntoView({ behavior: 'smooth' });
+        });
         
         // 可选：添加滚动监听来高亮当前可见部分的导航按钮
         window.addEventListener('scroll', () => {
-            const sections = [overviewSection, publicationsSection, scheduleSection];
-            const navItems = [navOverview, navPublications, navSchedule];
+            const sections = [overviewSection, publicationsSection, scheduleSection, proposalsSection];
+            const navItems = [navOverview, navPublications, navSchedule, navProposals];
             
             sections.forEach((section, index) => {
                 const rect = section.getBoundingClientRect();
